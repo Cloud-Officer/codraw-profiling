@@ -5,5 +5,5 @@ Profiling tools to collect metrics about running code, notably SQL query profili
 ## Installation
 
 ```bash
-composer require codraw/
+composer require codraw/profiling
 ```
