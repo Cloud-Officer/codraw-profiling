@@ -30,5 +30,8 @@
         "branch-alias": {
             "dev-master": "0.39-dev"
         }
+    },
+    "replace": {
+        "draw/profiling": "self.version"
     }
 }
