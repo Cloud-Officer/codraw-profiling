@@ -67,6 +67,8 @@ final class SqlAssertionBuilder
             case 'assertEquals':
                 $countTester->assertEquals($count, $message);
                 break;
+            default:
+                throw new \LogicException(\sprintf('Unknown assertion method "%s".', $method));
         }
     }
 }
