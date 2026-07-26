@@ -32,6 +32,6 @@
         }
     },
     "replace": {
-        "codraw/profiling": "self.version"
+        "draw/profiling": "self.version"
     }
 }
